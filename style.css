@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+    color: white;
+}
+
+body{
+    background-color: rgb(249, 249, 249);
+}
+
+.border{
+    border: 1.5px solid transparent;
+    border-radius: 5%;
+    padding: 2px;
+}
+.border:hover{
+    border-color: white;
+}
+/* navigation bar*/
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0f1111;
+    height: 60px;
+    width: 100vw;
+    align-items: center;
+}
+
+
+/* logo */
+
+.nav-logo {
+    height: 55px;
+    width: 115px;
+}
+
+.amazon-logo{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 105px;
+    background-size: cover;
+}
+
+/* address */
+
+.address-text{
+    padding-left: 15px;
+    font-size: 0.85rem;
+}
+.deliver-address{
+    display: flex;
+}
+.location-icon{
+    font-size: 0.95rem;
+}
+.address-country{
+    font-weight: 700;
+    padding-left: 4px;
+    font-size: 0.95rem;
+}
+
+/* search bar */
+
+.nav-search{
+    height: 40px;
+    width: 800px;
+    display: flex;
+    border: 2.5px solid transparent;
+}
+.nav-search:hover{
+    border: 2.5px solid orange;
+    border-radius: 8px;
+}
+select {
+    height: 40px;
+    width: 50px;
+    background-color: rgb(229, 226, 226);
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    color: black;
+    font-size: 0.95rem;
+    text-align: center;
+    border: none;
+    border-right: 1px solid rgb(150, 150, 150);
+}
+.search-bar{
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 0.95rem;
+    font-weight: 545;
+    color: black;
+}
+.search-icon{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 174, 24);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    color: #0f1111;
+}
+
+
+/* language selection */
+
+.lang-selection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.lang-country-flag{
+    height: 18.5px;
+    width: 25px;
+    background-image: url("india_flag.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lang-option{
+    height: 30px;
+    width: 40px;
+    color: white;
+    background-color: #0f1111;
+    border: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+/* accounts and address */
+
+.heading-text1{
+    font-size: 0.8rem;
+}
+.heading-text2{
+    font-size:0.95rem;
+    font-weight: 600;
+}
+
+/* cart */
+
+
+.nav-cart{
+    display: flex;
+}
+.cart-logo{
+    font-size: 1.6rem;
+}
+.cart-text{
+    font-size:
+        0.9rem;
+        padding-top: 15px;
+        font-weight: 600;
+    
+}
+
+/* sub header */
+
+.sub-header{
+    display: flex;
+    height: 35px;
+    width: 100vw;
+    background-color: #222f3d;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 520;
+}
+
+.sub-header-1{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sub-header-element-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-header-2{
+    margin-left: 45%;
+}
+
+
+/* hero section */
+
+.hero-section{
+    height: 320px;
+    width: 100vw;
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-msg-1{
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+}
+
+.hero-msg-2{
+    height: 40px;
+    width: 95vw;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.hero-msg-1 a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.hero-msg-1 a:hover{
+    text-decoration: underline;
+    color: rgb(255, 119, 0);
+}
+
+
+
+/* items section */
+
+.items-section{
+    width: 100vw;
+    height: 800px;
+    background-color: #00718514;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item{
+    height: 350px;
+    width: 21.5vw;
+    background-color: white;
+}
+
+.item h2 {
+    color: black;
+    font-size: 1.3rem;
+    margin: 5%;
+}
+
+.item-img {
+    width: 86%;
+    height: 260px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 2%;
+    border-radius: 1.5%;
+}
+
+.img-1 {
+    background-image: url("box4_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-2{
+    background-image: url("box3_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-3{
+    background-image: url("box2_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-4{
+    background-image: url("box6_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-5{
+    background-image: url("box1_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-6{
+    background-image: url("box8_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-7{
+    background-image: url("box5_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-8{
+    background-image: url("box7_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item a{
+    color: #007185;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin: 5%;
+}
+.item a:hover{
+    text-decoration: underline;
+    color: rgb(255, 119, 0);
+}
+
+
+
+
+/* footer section */
+
+footer{
+    background-color: #253342;
+    width: 100vw;
+}
+
+.footer-anchor {
+    text-decoration: none;
+}
+
+.footer-anchor:hover{
+    text-decoration: underline;
+}
+
+
+.footer-content-box{
+    width: 100vw;
+    height: 260px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 0.2px solid rgba(128, 128, 128, 0.347);
+}
+
+.footer-content h4{
+    font-size: 1.08rem;
+    margin-bottom: 15px;
+}
+.footer-content a{
+    font-size: 0.875rem;
+    display: block;
+    margin-top: 10px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 0.86rem;
+}
