@@ -10,6 +10,7 @@ Developed on December 2022. This is a frontend clone of amazon.in, created using
 
 **CSS**
 
+# Features
 Here are four key features of the Amazon.in frontend clone:
 
 1. **Responsive Design**: Adjusts seamlessly across devices.
